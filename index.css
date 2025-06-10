@@ -37,7 +37,7 @@ body {
     background-color: var(--color-content-bg);
     display: flex;
     flex-direction: column;
-    width: clamp(16rem, 85vw, 20rem);
+    width:clamp(16rem, 85vw, 20rem);
     height: auto;
     border-radius: var(--border-radius-large);
     justify-content: center;
@@ -114,10 +114,10 @@ body {
     text-align:center;
     padding: 1.5rem 0rem;
     
-    border-top: 0.06rem solid hsl(0, 0%, 89%);
+    border-top: 0.06rem solid var(--color-text-tertiary);
     width: 100%;
-    padding-inline-start: 1rem;
-    padding-inline-end: 1rem;
+    padding-inline-start: 0.9rem;
+    padding-inline-end: 0.9rem;
     
 }
 .stat{
@@ -159,7 +159,7 @@ body {
         margin-block-start: 5rem;
     }
     .stats{
-        gap:1rem;
+        gap:1.3rem;
     }
 
     
